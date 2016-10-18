@@ -1,0 +1,28 @@
+﻿<Window x:Class="CertInstaller.a.Windows.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CertInstaller.a.Windows"
+        mc:Ignorable="d"
+        Title="Certificate Installer" Height="227.434" Width="545.133" Icon="/CertInstaller;component/app.ico" Loaded="Window_Loaded" ResizeMode="CanResizeWithGrip" Background="#FF1F1F1F" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="btn_Install" Content="INSTALL" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="75" Click="btn_Install_Click" Height="23" Background="#FF8EFF83"/>
+        <ProgressBar x:Name="pBar" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="503" Margin="10,10,0,0"/>
+        <Label x:Name="label" Content="Certificate:" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="label_Copy" Content="Thumbprint:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="label_Copy1" Content="Before:" HorizontalAlignment="Left" Margin="242,130,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="label_Copy2" Content="Expires:" HorizontalAlignment="Left" Margin="242,156,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="lbl_Certificate" Content="-" HorizontalAlignment="Left" Margin="90,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Thumbprint" Content="-" HorizontalAlignment="Left" Margin="90,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Before" Content="-" HorizontalAlignment="Left" Margin="322,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Expires" Content="-" HorizontalAlignment="Left" Margin="322,156,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Found MSI:" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="label_Copy4" Content="Is Admin:" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Label x:Name="lbl_MSI" Content="-" HorizontalAlignment="Left" Margin="90,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Admin" Content="-" HorizontalAlignment="Left" Margin="90,156,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_Ready" Content="Not ready!" HorizontalAlignment="Left" Margin="90,39,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
+        <Button x:Name="btn_Log" Content="Log" HorizontalAlignment="Left" Margin="476,42,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn_Log_Click"/>
+
+    </Grid>
+</Window>

@@ -1,5 +1,5 @@
 # CertInstaller
-(Development) Certificate Installer
+Certificate Installer
 
 ## About
 Simple application to install an MSI with thumbprint of existing certificater.

@@ -15,7 +15,7 @@ namespace CertInstaller.a.Logic
         /// <returns></returns>
         public static bool foundMSI()
         {
-            return File.Exists("JabraWebSocketSergiceSetup.msi");
+            return File.Exists("JabraWebSocketServiceSetup.msi");
         }
     }
 }

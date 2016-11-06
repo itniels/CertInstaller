@@ -154,5 +154,11 @@ namespace CertInstaller.a.Windows
             }
             MessageBox.Show(result, "Logs", MessageBoxButton.OK);
         }
+
+        private void btn_ListCerts_Click(object sender, RoutedEventArgs e)
+        {
+            var f = new ListCerts();
+            f.ShowDialog();
+        }
     }
 }

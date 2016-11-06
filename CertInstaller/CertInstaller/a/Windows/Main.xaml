@@ -23,6 +23,7 @@
         <Label x:Name="lbl_Admin" Content="-" HorizontalAlignment="Left" Margin="90,156,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_Ready" Content="Not ready!" HorizontalAlignment="Left" Margin="90,39,0,0" VerticalAlignment="Top" Foreground="#FFE2E2E2"/>
         <Button x:Name="btn_Log" Content="Log" HorizontalAlignment="Left" Margin="476,42,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn_Log_Click"/>
+        <Button x:Name="btn_ListCerts" Content="List Certs" HorizontalAlignment="Left" Margin="405,42,0,0" VerticalAlignment="Top" Width="66" Height="23" Click="btn_ListCerts_Click"/>
 
     </Grid>
 </Window>
